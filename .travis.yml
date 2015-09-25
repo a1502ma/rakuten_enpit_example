@@ -10,4 +10,5 @@ deploy:
     secure: IK9VOLnD42TF8z5bxjLxkbWe1TIPqgBpqirPOYwGXvS1OMrXcXB1CzBDlsoMHGjUefXUVOHGgESuj6lPuYXxdxQuqO0STK9xtBPa9XiUzgOMt83iLKk9Uxkf8Tt3Pno9j8jsr/S3PSbVbAan0bBt+h6voStrfzK/tt40O9eMn10=
   app: cryptic-cove-3283
   on:
-    branch: travis_setting
+    repo: a1502ma/rails_enpit
+    branch: master
