@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.2.2
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: IK9VOLnD42TF8z5bxjLxkbWe1TIPqgBpqirPOYwGXvS1OMrXcXB1CzBDlsoMHGjUefXUVOHGgESuj6lPuYXxdxQuqO0STK9xtBPa9XiUzgOMt83iLKk9Uxkf8Tt3Pno9j8jsr/S3PSbVbAan0bBt+h6voStrfzK/tt40O9eMn10=
+  app: cryptic-cove-3283
+  on:
+    branch: travis_setting
